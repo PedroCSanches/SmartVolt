@@ -1,0 +1,148 @@
+/* Configurações gerais */
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  padding: 20px;
+}
+
+.parteEsquerda, .parteDireita {
+  flex: 1;
+  padding: 20px;
+}
+
+.parteEsquerda {
+  border-right: 1px solid #555;
+}
+
+/* Cabeçalho */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header div {
+  color: #7CFC00;
+  font-size: 150%;
+}
+
+/* Títulos e itens */
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.item div {
+  font-size: 18px;
+}
+
+.item .preco {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.item button {
+  background-color: #7CFC00;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Carrinho */
+.carrinho-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.carrinho-item div {
+  margin-right: 10px;
+}
+
+.carrinho-item .quantity {
+  background-color: #fff;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.carrinho-item .add, .carrinho-item .remove {
+  background-color: #7CFC00;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.carrinho-item .remove {
+  background-color: #ff0000;
+}
+
+/* Total e botão de pagamento */
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #555;
+  padding-top: 10px;
+}
+
+.total div {
+  font-size: 18px;
+}
+
+.pagar {
+  background-color: #7CFC00;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+}
+footer h1, footer h2 {
+  margin: 10px 0;
+}
+.contact-info {
+  margin: 20px 0;
+}
+.contact-info img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.contact-info p {
+  margin: 5px 0;
+}
+.icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 24px;
+}
